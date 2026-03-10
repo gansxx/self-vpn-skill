@@ -1,0 +1,61 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B132B"/>
+      <stop offset="1" stop-color="#1C2541"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#5BC0BE" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#5BC0BE" stop-opacity="0.06"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 32px 'Segoe UI', 'Noto Sans SC', sans-serif; fill: #EAF7FF; }
+      .label { font: 700 20px 'Segoe UI', 'Noto Sans SC', sans-serif; fill: #C7F9FF; }
+      .desc { font: 400 15px 'Segoe UI', 'Noto Sans SC', sans-serif; fill: #D7E8F7; }
+      .num { font: 700 26px 'Segoe UI', sans-serif; fill: #0B132B; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <text x="52" y="62" class="title">Self VPN Setup Flow</text>
+
+  <g transform="translate(52,108)">
+    <rect width="248" height="180" rx="16" fill="url(#card)" stroke="#5BC0BE"/>
+    <circle cx="38" cy="38" r="20" fill="#5BC0BE"/>
+    <text x="31" y="46" class="num">1</text>
+    <text x="30" y="84" class="label">Buy SWAS</text>
+    <text x="30" y="114" class="desc">Choose Debian image,</text>
+    <text x="30" y="136" class="desc">set region, open firewall</text>
+  </g>
+
+  <g transform="translate(336,108)">
+    <rect width="248" height="180" rx="16" fill="url(#card)" stroke="#5BC0BE"/>
+    <circle cx="38" cy="38" r="20" fill="#5BC0BE"/>
+    <text x="31" y="46" class="num">2</text>
+    <text x="30" y="84" class="label">Install Server</text>
+    <text x="30" y="114" class="desc">Run one-line install script</text>
+    <text x="30" y="136" class="desc">and get share link</text>
+  </g>
+
+  <g transform="translate(620,108)">
+    <rect width="248" height="180" rx="16" fill="url(#card)" stroke="#5BC0BE"/>
+    <circle cx="38" cy="38" r="20" fill="#5BC0BE"/>
+    <text x="31" y="46" class="num">3</text>
+    <text x="30" y="84" class="label">Import Client</text>
+    <text x="30" y="114" class="desc">Load into v2rayN</text>
+    <text x="30" y="136" class="desc">or compatible clients</text>
+  </g>
+
+  <g transform="translate(904,108)">
+    <rect width="248" height="180" rx="16" fill="url(#card)" stroke="#5BC0BE"/>
+    <circle cx="38" cy="38" r="20" fill="#5BC0BE"/>
+    <text x="31" y="46" class="num">4</text>
+    <text x="30" y="84" class="label">Verify Access</text>
+    <text x="30" y="114" class="desc">Latency != -1 and</text>
+    <text x="30" y="136" class="desc">target website reachable</text>
+  </g>
+
+  <path d="M302 198H332" stroke="#C7F9FF" stroke-width="3" stroke-linecap="round"/>
+  <path d="M586 198H616" stroke="#C7F9FF" stroke-width="3" stroke-linecap="round"/>
+  <path d="M870 198H900" stroke="#C7F9FF" stroke-width="3" stroke-linecap="round"/>
+</svg>

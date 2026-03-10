@@ -9,14 +9,14 @@
 - 地域自己选择，推荐东京（几乎无限制的同时，速率也较为不错），由需要体验最新AI产品的用户，也可以选择美国地区
 - 购买一个月，自主决定是否开启自动续费，阿里云5天内支持无条件退款，所以无需担心配置失败问题
 - 在防火墙处打开所有端口，应用类型选择全部TCP+UDP即可
-![alt text](image.png)
+![防火墙端口放行示意图](./assets/screenshots/firewall-open-ports.png)
 
 # 第三步：下载客户端
 - 根据你所在的环境，在https://github.com/2dust/v2rayN/releases上下载对应的软件包，安装参考https://github.com/2dust/v2rayN/wiki/Release-files-introduction
 - 对于win用户，下载v2rayN-windows-64-desktop.zip即可
 - win中软件还需要解压，解压后点击v2rayN.exe 即可以正常打开
 - 其他平台（包括移动）用户可以在https://github.com/2dust/v2rayN参考相关安装说明
-![alt text](image-3.png)
+![v2rayN 导入示意图](./assets/screenshots/v2rayn-client-import.png)
 
 # 第四步 ：在https://swasnext.console.aliyun.com/servers界面点击重置密码，
 - 执行以下命令链接
@@ -34,8 +34,8 @@ dmxlc3M6Ly84YWYxYWE4Zi1hNjcyLTQ1YTktYjVjOC05NmMyYmQzMDA1ZmVAOC4yMTEuMTY4LjE2OToy
 # 第五步： 测试和提醒
 - 首要推荐使用hysteria协议，使用体验最佳，延迟最低
 ## 测试
-- 在将链接复制到客户端后，右键单击测试配置文件真延迟![alt text](image-2.png)
-- 测试时只要显示的延迟如图不是-1，则代表能够正常访问![alt text](image-1.png)
+- 在将链接复制到客户端后，右键单击测试配置文件真延迟![真延迟测试示意图](./assets/screenshots/client-latency-test.png)
+- 测试时只要显示的延迟如图不是-1，则代表能够正常访问![客户端连接状态示意图](./assets/screenshots/client-connected.png)
 
 ## 额外提醒
 - 检测时，延迟-1，无法正常连接，通常是第三步阿里云处的防火墙存在问题
