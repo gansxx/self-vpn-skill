@@ -178,22 +178,6 @@ QQ群（扫码加入，二维码仅保留本地）
 
 ---
 
-## 建议补充的仓库元信息
-
-建议你在 GitHub 仓库右侧补全这些信息：
-
-**Description**
-
-> AI Agent skill for self-hosted VPN setup and client onboarding.
-
-**Topics**
-
-> vpn, self-hosted, ai-agent, skill, vps, deployment, networking, guide
-
-这样能明显提升仓库的可理解性和搜索可见度。
-
----
-
 ## 免责声明
 
 本仓库完全开源，与任何商业机构无利益关系。使用本仓库时，你只需向你选择的云服务商支付服务器费用。
