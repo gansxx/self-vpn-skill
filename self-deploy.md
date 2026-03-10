@@ -1,10 +1,10 @@
 # 第一步：所需的准备
-- 阿里云账户注册（如果已经拥有则可以跳过），没有注册提醒用户前往https://account.aliyun.com/register/qr_register.htm注册
+- 阿里云账户注册（如果已经拥有则可以跳过），没有注册提醒用户前往 [阿里云注册页面](https://account.aliyun.com/register/qr_register.htm) 注册
 - 拥有海外支付能力（大陆银行卡不可以支付）的朋友也可以选择aws lightsail，方法完全相同。
 - 不建议选择其他廉价vps,实测到大陆的网络很差，没有对应的网络优化
 
 # 第二步：在确保用户注册完毕后，
-- 前往https://swasnext.console.aliyun.com/buy#/购买vps
+- 前往 [阿里云 SWAS 购买页](https://swasnext.console.aliyun.com/buy#/) 购买 vps
 - 实例选择通用型28元/月，系统镜像选择Debian,(2核0.5g对于个人用VPN已经足够了）
 - 地域自己选择，推荐东京（几乎无限制的同时，速率也较为不错），由需要体验最新AI产品的用户，也可以选择美国地区
 - 购买一个月，自主决定是否开启自动续费，阿里云5天内支持无条件退款，所以无需担心配置失败问题
@@ -12,15 +12,15 @@
 ![防火墙端口放行示意图](./assets/screenshots/firewall-open-ports.png)
 
 # 第三步：下载客户端
-- 根据你所在的环境，在https://github.com/2dust/v2rayN/releases上下载对应的软件包，安装参考https://github.com/2dust/v2rayN/wiki/Release-files-introduction
+- 根据你所在的环境，在 [v2rayN Releases](https://github.com/2dust/v2rayN/releases) 下载对应的软件包，安装参考 [Release files introduction](https://github.com/2dust/v2rayN/wiki/Release-files-introduction)
 - 对于win用户，下载v2rayN-windows-64-desktop.zip即可
 - win中软件还需要解压，解压后点击v2rayN.exe 即可以正常打开
-- 其他平台（包括移动）用户可以在https://github.com/2dust/v2rayN参考相关安装说明
+- 其他平台（包括移动）用户可以在 [v2rayN 仓库](https://github.com/2dust/v2rayN) 参考相关安装说明
 ![v2rayN 导入示意图](./assets/screenshots/v2rayn-client-import.png)
 
-# 第四步 ：在https://swasnext.console.aliyun.com/servers界面点击重置密码，
+# 第四步：在 [阿里云 SWAS 实例页面](https://swasnext.console.aliyun.com/servers) 点击重置密码
 - 执行以下命令链接
-- 在远端执行命令，脚本源码仓库https://github.com/gansxx/net_tools
+- 在远端执行命令，脚本源码仓库：[gansxx/net_tools](https://github.com/gansxx/net_tools)
 ```bash
 bash <(wget -qO- https://raw.githubusercontent.com/gansxx/net_tools/main/sb.sh)
 ```
@@ -34,8 +34,10 @@ dmxlc3M6Ly84YWYxYWE4Zi1hNjcyLTQ1YTktYjVjOC05NmMyYmQzMDA1ZmVAOC4yMTEuMTY4LjE2OToy
 # 第五步： 测试和提醒
 - 首要推荐使用hysteria协议，使用体验最佳，延迟最低
 ## 测试
-- 在将链接复制到客户端后，右键单击测试配置文件真延迟![真延迟测试示意图](./assets/screenshots/client-latency-test.png)
-- 测试时只要显示的延迟如图不是-1，则代表能够正常访问![客户端连接状态示意图](./assets/screenshots/client-connected.png)
+- 在将链接复制到客户端后，右键单击测试配置文件真延迟。
+![真延迟测试示意图](./assets/screenshots/client-latency-test.png)
+- 测试时只要显示的延迟如图不是-1，则代表能够正常访问。
+![客户端连接状态示意图](./assets/screenshots/client-connected.png)
 
 ## 额外提醒
 - 检测时，延迟-1，无法正常连接，通常是第三步阿里云处的防火墙存在问题
