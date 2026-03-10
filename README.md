@@ -145,9 +145,9 @@ AI Agent 会按技能流程逐步收集信息，并引导你完成部署。
 
 可以买。但如果你在意独立 IP、稳定性、控制权和长期维护能力，自部署通常更合适。
 
-### 4. 适合拿来给 AI Agent 学习吗？
+### 4. 小白能部署吗？
 
-适合。这个仓库的 `skills/self-vpn-setup/` 就是为这种场景设计的。
+能。这个仓库的 `skills/self-vpn-setup/` 就是为了让AI使用该skill来帮助没有基础的小白部署的。
 
 ---
 
@@ -164,8 +164,9 @@ AI Agent 会按技能流程逐步收集信息，并引导你完成部署。
 
 **[加入 Discord 交流频道](https://discord.gg/BQtun57x)**
 
-qq群
-点击链接加入群聊【Self VPN Lab】：https://qun.qq.com/universal-share/share?ac=1&authKey=HJfFKId0Nt0Z9b9hBkUcIE8puzAKEimTyHZhNReHpezI6pd0FQX%2FIp2E8puvUmgd&busi_data=eyJncm91cENvZGUiOiIxMDg3MjU4NjAxIiwidG9rZW4iOiJxSHp3eXRlcUN3bWI3VWNLRGdqRXVmTnNoQjc5bktibm9LU1RkaFJ5TUYzNjFFbHd0YlpHZndJdEs1cmpJZG1BIiwidWluIjoiMTIxNDI1MDI0NyJ9&data=_wvkoLkyJgx73bcR-rb-ywJp66q7BYp9dYjauRuN8fMbQxWnzwTdWOvBsHw60AVwyg3V1QdXJYy6q_Bwxmz9Ow&svctype=4&tempid=h5_group_info
+QQ群（扫码加入，二维码仅保留本地）
+
+![Self VPN Lab QQ 群二维码](./assets/Image_1773132308009_873.jpg)
 
 ---
 
@@ -196,5 +197,3 @@ qq群
 ## 免责声明
 
 本仓库完全开源，与任何商业机构无利益关系。使用本仓库时，你只需向你选择的云服务商支付服务器费用。
-
-本技能完全开源，与任何商业机构无利益关系。用户仅需向对应云服务商支付费用。
