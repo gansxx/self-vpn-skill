@@ -1,0 +1,4 @@
+interface:
+  display_name: "Self VPN Setup"
+  short_description: "Provision a personal VPN on Aliyun SWAS and configure v2rayN"
+  default_prompt: "Guide the user to set up their own VPN on Aliyun SWAS and configure the client using the workflow in this skill."
