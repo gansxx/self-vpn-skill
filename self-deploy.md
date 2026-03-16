@@ -1,3 +1,11 @@
+## 文档语言 / Languages
+
+- 中文部署文档：[`self-deploy.md`](./self-deploy.md)
+- English Deployment Guide: [`i18n/self-deploy.en.md`](./i18n/self-deploy.en.md)
+- 中文 README：[`README.md`](./README.md)
+- English README: [`i18n/README.en.md`](./i18n/README.en.md)
+- 开源协议 / License: [`LICENSE`](./LICENSE)
+
 # 第一步：所需的准备
 - 阿里云账户注册（如果已经拥有则可以跳过），没有注册提醒用户前往 [阿里云注册页面](https://account.aliyun.com/register/qr_register.htm) 注册
 - 拥有海外支付能力（大陆银行卡不可以支付）的朋友也可以选择aws lightsail，方法完全相同。

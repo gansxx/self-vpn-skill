@@ -12,6 +12,14 @@
   </p>
 </div>
 
+## 文档语言 / Languages
+
+- 中文 README：[`README.md`](./README.md)
+- English README: [`i18n/README.en.md`](./i18n/README.en.md)
+- 中文部署文档：[`self-deploy.md`](./self-deploy.md)
+- English Deployment Guide: [`i18n/self-deploy.en.md`](./i18n/self-deploy.en.md)
+- 开源协议 / License: [`LICENSE`](./LICENSE)
+
 ---
 
 ## 这是什么
@@ -59,6 +67,9 @@
 │   └── self-vpn-setup/     # 给 AI Agent 使用的 skill
 ├── self-deploy.md          # 给人手动部署和排障的文档
 ├── README.md               # 仓库首页说明
+├── i18n/
+│   ├── README.en.md        # English 项目说明
+│   └── self-deploy.en.md   # English 部署文档
 └── assets/                 # Banner、流程图、截图等视觉资源
 ```
 
